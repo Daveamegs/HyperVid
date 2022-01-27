@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+
         android:name="com.foreverrafs.hypervid.HyperVidApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,6 +19,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
         <activity
+            android:exported="true"
             android:name="com.foreverrafs.hypervid.ui.SplashActivity"
             android:theme="@style/AppTheme.Splash">
             <intent-filter>
